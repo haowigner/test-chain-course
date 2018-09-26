@@ -1,2 +1,10 @@
 Homework week 1
-Q2:
+Q2: 将Bitcoin，Ethereum，Monero，Zcash，EOS的交易 相关交易属性 块大小 填入多少交易等写在report里。
+回答：
+1）Bitcoin
+交易属性包括元数据（此交易哈希值（hash），交易的规模（size），输入（vin_sz）和输出数量（vout_sz），以及锁定时间（lock_time））；
+输入列表（前一个交易的输出（prev_out），它包括两个属性，之前那笔交易的哈希值（hash），以及那笔交易中当前输出的索引（n），
+输入还包含一个签名（signature），用来证明支配此输出的签名）；
+和输出列表（币值（value），scriptPubKey 中有一个的公钥和一个比特币脚本。）。
+块大小1MB，大约可以填入10^6/250=4，000笔交易。
+2）Ethereum
